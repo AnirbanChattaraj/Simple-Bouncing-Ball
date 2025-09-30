@@ -1,0 +1,36 @@
+
+    /* Container to center the animation */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    /* The ball style */
+    .ball {
+      width: 50px;
+      height: 50px;
+      background-color: rgb(0, 229, 255);
+      border-radius: 50%;
+      position: relative;
+      animation: bounce 1s ease-in-out infinite;
+      animation-direction: alternate;
+    }
+    /* Bounce keyframes: moves the ball up and down */
+    @keyframes bounce {
+      0% {
+        top: 0;
+        transform: scaleX(1) scaleY(1);
+      }
+      50% {
+        top: 100px;
+        transform: scaleX(1.2) scaleY(0.8);
+      }
+      100% {
+        top: 0;
+        transform: scaleX(1) scaleY(1);
+      }
+    }
+  
