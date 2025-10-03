@@ -11,7 +11,7 @@ This project demonstrates how to use CSS keyframes and positioning to animate a 
 
 🚀 Works in all modern browsers
 
-🛠️ Technologies Used
+🛠️ Technologies Used:
 HTML5 — Structure of the page
 
 CSS3 — Styling and animation (keyframes)
@@ -19,3 +19,4 @@ CSS3 — Styling and animation (keyframes)
 📸 Preview
 A ball continuously bounces up and down on the screen using smooth CSS animation.
 
+Made by Anirban Chattaraj
